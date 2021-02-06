@@ -9,13 +9,13 @@ Video example:
 
 Steps:
 
-0. Select a physical model from FAUST
-1. Export from Faust to UnityPackage
-2. Create a “dummy” project in Unity
-3. Import Faust package to Unity
-4. Assign plugin script to object
-5. Play and control the instruments parameter through unity GUI
-6. Get access to parameters and change them through C#
+      0. Select a physical model from FAUST
+      1. Export from Faust to UnityPackage
+      2. Create a “dummy” project in Unity
+      3. Import Faust package to Unity
+      4. Assign plugin script to object
+      5. Play and control the instruments parameter through unity GUI
+      6. Get access to parameters and change them through C#
 
 
 
