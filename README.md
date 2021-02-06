@@ -1,7 +1,7 @@
 # ConvertFaust2Unity
 Use a Faust musical instrument in Unity parametericing its variables easily 
 
-http://img.youtube.com/vi/VIDEO-ID/0.jpg
+http://img.youtube.com/vi/X0OCmDB-Occ/0.jpg
 
 Steps:
 
