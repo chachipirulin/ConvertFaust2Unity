@@ -1,9 +1,18 @@
 # ConvertFaust2Unity
-
+Use a Faust musical instrument in Unity parametericing its variables easily 
 VIDEO EXAMPLE: https://www.youtube.com/watch?v=X0OCmDB-Occ
 
+Steps:
 
-Use a Faust musical instrument in Unity parametericing its variables easily 
+0. Select a physical model from FAUST
+1. Export from Faust to UnityPackage
+2. Create a “dummy” project in Unity
+3. Import Faust package to Unity
+4. Assign plugin script to object
+5. Play and control the instruments parameter through unity GUI
+6. Get access to parameters and change them through C#
+
+
 
 Files you need to make everything work: 
 
@@ -54,7 +63,8 @@ Files you need to make everything work:
 4. Assign plugin script to object
 
         - In ”Scripts” folder, select your FaustPlugin_nameOfYourPlugin script
-          (DO NOT confuse WITH FaustUTILITIES_nameOfYourPlugin) - Drag and drop the script into the inspector of the DummyObject
+          (DO NOT confuse WITH FaustUTILITIES_nameOfYourPlugin) 
+        - Drag and drop the script into the inspector of the DummyObject
 
 5. Play and control the instruments parameter through unity GUI
 
@@ -69,7 +79,6 @@ Files you need to make everything work:
          -  Substitute "FaustPlugin_freeverbPlugin" BY THE NAME OF YOUR 
           FaustPlugin_NAME_OF_YOUR_PLUGIN.cs
          - Save the script
-
         - Assign the C# to the DummyObject in the inspector
 
         - Drag and drop DummyObject into the inspector script FaustVariableController, in the “this_Object” property
